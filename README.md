@@ -1,4 +1,4 @@
-PHP BruteForce class
+PHP Wordlistgenerator class
 =========
 
 A nice class for generating a generic wordlist.
