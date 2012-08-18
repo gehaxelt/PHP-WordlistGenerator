@@ -23,7 +23,7 @@ class WordlistGenerator {
 		if(!is_string($charset))
 			throw new NotAStringException('$charset is not a string.');
 		
-		$this->setCharSet('0123456789');
+		$this->setCharSet($charset);
 		$this->initWord($startLength);
 		
 	}
